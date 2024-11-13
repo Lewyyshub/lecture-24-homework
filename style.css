@@ -1,0 +1,163 @@
+@font-face {
+  font-family: Red Hat Text;
+  src: url(./fonts/RedHatText-Medium.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-image: url(./images/background.png);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 1440px;
+  height: 800px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.timers {
+  gap: 20px;
+  display: flex;
+  max-width: 688px;
+  height: 184px;
+}
+#days {
+  width: 148px;
+  height: 150px;
+  gap: 0px;
+  border-radius: 8px;
+  opacity: 0px;
+  font-family: Red Hat Text;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: -2.4000000953674316px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background-color: #343650;
+}
+#hours {
+  width: 148px;
+  height: 150px;
+  gap: 0px;
+  border-radius: 8px;
+  opacity: 0px;
+  font-family: Red Hat Text;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: -2.4000000953674316px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background-color: #343650;
+}
+#minutes {
+  width: 148px;
+  height: 150px;
+  gap: 0px;
+  border-radius: 8px;
+  opacity: 0px;
+  font-family: Red Hat Text;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: -2.4000000953674316px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background-color: #343650;
+}
+#seconds {
+  width: 148px;
+  height: 150px;
+  gap: 0px;
+  border-radius: 8px;
+  opacity: 0px;
+  font-family: Red Hat Text;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: -2.4000000953674316px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background-color: #343650;
+}
+.headingtxt {
+  font-family: Red Hat Text;
+  /* font-size: 22px;
+  font-weight: 700; */
+  line-height: 29.11px;
+  letter-spacing: 7.5px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+.span1 {
+  font-family: Red Hat Text;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.52px;
+  letter-spacing: 5.918749809265137px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #8385a9;
+  padding-left: 50px;
+}
+.span2 {
+  font-family: Red Hat Text;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.52px;
+  letter-spacing: 5.918749809265137px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #8385a9;
+  padding-left: 35px;
+}
+.span3 {
+  font-family: Red Hat Text;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.52px;
+  letter-spacing: 5.918749809265137px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #8385a9;
+  padding-left: 23px;
+}
+.span4 {
+  font-family: Red Hat Text;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.52px;
+  letter-spacing: 5.918749809265137px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #8385a9;
+  padding-left: 20px;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+  padding-left: 660px;
+  position: absolute;
+  bottom: 200px;
+}
+.iconhover1:hover {
+  color: red;
+}
