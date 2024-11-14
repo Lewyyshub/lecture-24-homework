@@ -7,8 +7,10 @@
   margin: 0;
   padding: 0;
 }
+
 body {
-  background-image: url(./images/background.png);
+  background-color: #1d1e28;
+  background-image: url(./images/stars.png);
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -44,6 +46,8 @@ body {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   background-color: #343650;
+  color: #fb5e84;
+  padding-top: 30px;
 }
 #hours {
   width: 148px;
@@ -60,6 +64,8 @@ body {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   background-color: #343650;
+  color: #fb5e84;
+  padding-top: 30px;
 }
 #minutes {
   width: 148px;
@@ -76,6 +82,8 @@ body {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   background-color: #343650;
+  color: #fb5e84;
+  padding-top: 30px;
 }
 #seconds {
   width: 148px;
@@ -92,6 +100,8 @@ body {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   background-color: #343650;
+  color: #fb5e84;
+  padding-top: 30px;
 }
 .headingtxt {
   font-family: Red Hat Text;
@@ -115,6 +125,8 @@ body {
   text-decoration-skip-ink: none;
   color: #8385a9;
   padding-left: 50px;
+  position: sticky;
+  top: 450px;
 }
 .span2 {
   font-family: Red Hat Text;
@@ -127,6 +139,8 @@ body {
   text-decoration-skip-ink: none;
   color: #8385a9;
   padding-left: 35px;
+  position: sticky;
+  top: 450px;
 }
 .span3 {
   font-family: Red Hat Text;
@@ -139,6 +153,8 @@ body {
   text-decoration-skip-ink: none;
   color: #8385a9;
   padding-left: 23px;
+  position: sticky;
+  top: 450px;
 }
 .span4 {
   font-family: Red Hat Text;
@@ -151,12 +167,13 @@ body {
   text-decoration-skip-ink: none;
   color: #8385a9;
   padding-left: 20px;
+  position: sticky;
+  top: 450px;
 }
 .icons {
   display: flex;
   gap: 20px;
   padding-left: 650px;
-  position: absolute;
-  bottom: 200px;
+  bottom: 250px;
+  position: sticky;
 }
-
